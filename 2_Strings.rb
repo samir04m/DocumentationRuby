@@ -10,6 +10,8 @@ puts "Hola #{ nombre.upcase }"
 puts "Hola #{ nombre.downcase }"
 # Poner la primera en mayuscula
 puts "Hola #{ nombre.capitalize }"
+# Esto "nombre = nombre.capitalize" se pude hacer asi "nombre.capitalize!""
+
 # Realizar operaciones dentro de un puts
 puts "20 + 20 = #{ 20 + 20 }"
 
